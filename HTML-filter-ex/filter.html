@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Southwind Capital - DC Merger & Acquisitions Advisory</title>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">  
+ 
+</head>
+  
+<body class="transactions">
+
+  <!-- ./header start -->
+  <header>    
+      <div class="container">
+    	  <div class="row">
+      	   <div class="col-lg-12 hedr-cntr">                     
+        	    <div class="logo">
+        	      <a href="index.html"><img src="images/southwind-logo.png" alt="" title=""></a>
+              </div> 
+              <div class="rightColm">
+                  <span class='hamburger-menu'>
+                    <span class='burger-1'></span>
+                    <span class='burger-2'></span>
+                    <span class='burger-3'></span>
+                  </span>
+                  <ul class="Menu_list">
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="team.html">Leadership</a></li>
+                      <li><a href="experience.html">Experience</a></li>
+                      <li><a href="news.html">News</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="#">Investor Login</a></li>
+                  </ul>
+              </div>  
+      		 </div> 
+        </div>
+     </div>  
+  </header>
+  
+  <!-- ./header end -->
+  
+     <!-- ./Banner start -->  
+  <div class="global-banner experience-bg">  
+   <div class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="hd-center d-flex flex-column"> 
+         <h1>Transaction Experience</h1> 
+           </div>
+          </div>
+         </div>
+        </div> 
+       </div>
+	   <!-- ./Banner end -->
+	
+  
+  <!-- ./persistence -->
+   <div class="experienced-wrpr known-industry portfolio-inner">
+   
+	<div class="transactions-filter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="dropdown">
+                        <button class="btn-dropdown trans" type="button" id="industryDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="IndustrySpan"> Select Industry</span>  <i class="fas fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="industryDropdown">
+                                <form>
+                                        <div class="custom-control">
+                                            <input name="options" type="checkbox" class="filterOptions" value='Industry'>
+                                            <label class="" for='Industry'>Insurance</label>
+                                        </div>
+                                        <div class="custom-control">
+                                            <input name="options" type="checkbox" class="filterOptions" value='Healthcare'>
+                                            <label class="" for='Healthcare'>Healthcare Services</label>
+                                        </div>
+                                        <div class="custom-control">
+                                            <input name="options" type="checkbox" class="filterOptions" value='Investment'>
+                                            <label class="" for='Investment'>Investment Services</label>
+                                        </div>
+                                        <div class="custom-control">
+                                            <input name="options" type="checkbox" class="filterOptions" value='Technology'>
+                                            <label class="" for='Technology'>Technology</label>
+                                        </div>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="dropdown">
+                        <button class="btn-dropdown trans" type="button" id="transactionDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="TransactionTypesSpan"> Select Transaction Type</span> <i class="fas fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="industryDropdown">
+                                <form>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input TransactionTypesTransactionTypes" id='TransactionTypes1' />
+                                            <label class="custom-control-label" for='TransactionTypes1'>Sell-Side M&amp;A</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input TransactionTypesTransactionTypes" id='TransactionTypes2' />
+                                            <label class="custom-control-label" for='TransactionTypes2'>Buy-Side M&amp;A</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input TransactionTypesTransactionTypes" id='TransactionTypes3' />
+                                            <label class="custom-control-label" for='TransactionTypes3'>Capital Raise</label>
+                                        </div>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="dropdown">
+                        <button class="btn-dropdown w-auto trans btn-reset" type="button" id="resetDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Reset
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  <div id="filterResult"> 
+    <div class="transactions">
+        <div class="container">
+            <div class="row" id="target">
+                    <!-- dynamic data -->
+                    <!-- <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/SpecialtyGroupInc..PNG' alt="Specialty Group, Inc. (SGI)" title="Specialty Group, Inc. (SGI)" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/CustardCompanies.PNG' alt="Custard Companies " title="Custard Companies " class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Custard Companies </span>
+                                <span><i>September 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/custard-companies-acquire-specialty-group-inc'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Peachtree Corners, GA <br> September 2021</div>
+                                    <div class="title">Advised Custard Companies on its acquisition of Specialty Group, Inc. (SGI)</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/LegacyRestorationlogo.png' alt="Legacy Restoration" title="Legacy Restoration" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">received a majority investment from</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/BessemerInvestorslogo.png' alt="Bessemer Investors" title="Bessemer Investors" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Legacy Restoration</span>
+                                <span><i>August 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/legacy-restoration-received-a-majority-investment-from-bessemer-investors'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Plymouth, MN <br> August 2021</div>
+                                    <div class="title">Advised Legacy Restoration on its majority investment from Bessemer Investors</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/SALogo.png' alt="State Auto Group" title="State Auto Group" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">will be acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/LMlogo.png' alt="Liberty Mutual" title="Liberty Mutual" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Liberty Mutual</span>
+                                <span><i>July 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/advised-liberty-mutual-on-its-acquisition-of-state-auto-group'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Boston and Columbus, Ohio <br> July 2021</div>
+                                    <div class="title">Advised Liberty Mutual on its acquisition of State Auto Group</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/SHW.png' alt="StrucSure Home Warranty, LLC and affiliated reinsurance and insurance service entities" title="StrucSure Home Warranty, LLC and affiliated reinsurance and insurance service entities" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/InsuredHomes.png' alt="Insure Homes Holdings LLC" title="Insure Homes Holdings LLC" class="img-fluid m-auto" onerror="imgError(this);">
+                                    <div class="desc m-auto">
+                                        <div class="mb-3">a portfolio company of</div>
+                                            <div class="d-flex flex-row">
+                                                    <img src='/images/Transactions/BuyerPEFirmLogo1/Milestone.png' class="img-fluid mx-auto mb-auto small" onerror="imgError(this);">
+                                                                                            </div>
+                                    </div>
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Exclusive Financial Advisor to StrucSure Home Warranty </span>
+                                <span><i>June 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/strucsureinsure-homes'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Radnor, PA <br> June 2021</div>
+                                    <div class="title">Advised StrucSure Home Warranty on its sale to Insure Homes</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/iAS_Claim_Services.png' alt="IAS Claim Services" title="IAS Claim Services" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/DaviesGroup.jpg' alt="Davies Group" title="Davies Group" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to IAS Claim Services</span>
+                                <span><i>June 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/iasdavies'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">London, UK <br> June 2021</div>
+                                    <div class="title">Advised IAS Claim Services on its sale to Davies Group</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/Team_Focus_InsuranceGroup_46.png' alt="Team Focus Insurance Group" title="Team Focus Insurance Group" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">will be acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/PEAK6_InsurTech.png' alt="PEAK6" title="PEAK6" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Team Focus</span>
+                                <span><i>June 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/team-focuspeak6'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Chicago, IL <br> June 2021</div>
+                                    <div class="title">Advised Team Focus Insurance Group on its sale to PEAK6 Insurance Operations</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/Dama_Financial.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">has raised Series B growth capital to fund their expansion</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/Screenshot2021-04-21111442.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Dama Financial</span>
+                                <span><i>April 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/dama-financial'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">South San Francisco, CA <br> April 2021</div>
+                                    <div class="title">Advised Dama Financial on its Series B growth equity raise</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/DMA.jpg' alt="David Morse &amp; Associates (DMA)" title="David Morse &amp; Associates (DMA)" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/Venbrook.jpg' alt="Venbrook" title="Venbrook" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to David Morse & Associates </span>
+                                <span><i>April 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/david-morseassociates-dma'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Woodland Hills, CA <br> April 2021</div>
+                                    <div class="title">Advised David Morse and Associates (DMA) on it's sale to Venbrook</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/Lancer_Insurance_81.png' alt="Lancer Insurance Company" title="Lancer Insurance Company" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">has merged with</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/Core_Specialty.jpg' alt="Core Specialty Insurance Holdings" title="Core Specialty Insurance Holdings" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Lancer Insurance Company</span>
+                                <span><i>April 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/lancer-insurance-companycore-specialty-insurance-holdings'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Cincinnati, OH <br> April 2021</div>
+                                    <div class="title">Advised Lancer Insurance Company on its merger with Core Specialty</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/Standard_Life_Insurance_Company.jpg' alt="Standard Security Life Insurance Company" title="Standard Security Life Insurance Company" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">has been acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/Reliance_Standard.jpg' alt="Reliance Standard Life Insurance Comapny" title="Reliance Standard Life Insurance Comapny" class="img-fluid m-auto" onerror="imgError(this);">
+                                    <div class="desc m-auto">
+                                        <div class="mb-3">a member of</div>
+                                            <div class="d-flex flex-row">
+                                                    <img src='/images/Transactions/BuyerPEFirmLogo1/Tokio_Marine_Group.png' class="img-fluid mx-auto mb-auto small" onerror="imgError(this);">
+                                                                                            </div>
+                                    </div>
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Reliance Standard</span>
+                                <span><i>April 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/reliance-standard-life-insurance-companystandard-security-life-insurance-company'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">New York, NY <br> April 2021</div>
+                                    <div class="title">Advised Reliance Standard Life Insurance Company on its acquisition of Standard Security Life Insurance Company</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/ITMALogo.jpg' alt="ITMA (International Transportation &amp; Marine Agency)" title="ITMA (International Transportation &amp; Marine Agency)" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/MSAmlin.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to ITMA</span>
+                                <span><i>April 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/itmams-amlin'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Scottsdale, AZ <br> April 2021</div>
+                                    <div class="title">Advised ITMA on its sale to MS Amlin</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/AccuRisk_white.jpg' alt="AccuRisk Solutions" title="AccuRisk Solutions" class="img-fluid m-auto" onerror="imgError(this);">
+                                    <div class="desc m-auto">
+                                        <div class="mb-3">a portfolio company of</div>
+                                            <div class="d-flex flex-row">
+                                                    <img src='/images/Transactions/SellerPEFirmLogo1/Greenlightlogo.png.jpg' alt="Greenlight Re" title="Greenlight Re" class="img-fluid mx-auto mb-auto small" onerror="imgError(this);">
+
+                                            </div>
+                                    </div>
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/ArdonaghxAmynta.jpg' alt="The Ardonagh Group The Amynta Group" title="The Ardonagh Group The Amynta Group" class="img-fluid m-auto" onerror="imgError(this);">
+                                    <div class="desc m-auto">
+                                        <div class="mb-3">portfolio companies of</div>
+                                            <div class="d-flex flex-row">
+                                                    <img src='/images/Transactions/BuyerPEFirmLogo1/MDP.jpg' alt="Madison Dearborn Partners" title="Madison Dearborn Partners" class="img-fluid mx-auto mb-auto small" onerror="imgError(this);">
+                                                                                            </div>
+                                    </div>
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Greenlight Re</span>
+                                <span><i>April 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/advised-greenlight-re-on-the-sale-of-accurisk-solutions-to-the-ardonagh-group'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Chicago, Illinois <br> April 2021</div>
+                                    <div class="title">Advised Greenlight Re on the sale of AccuRisk Solutions to The Ardonagh Group</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/Ensurem_48.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/777Partners.jpg' class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Ensurem</span>
+                                <span><i>March 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/ensurem777-partners'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Clearwater, FL <br> March 2021</div>
+                                    <div class="title">Advised Ensurem on its sale to 777 Partners</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/DaviesGroup.jpg' alt="Davies" title="Davies" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">received a majority investment from</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/BCPartners.jpg' alt="BC Partners" title="BC Partners" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to BC Partners</span>
+                                <span><i>March 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/bc-partnersdavies'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">London, UK <br> March 2021</div>
+                                    <div class="title">Advised BC Partners on its majority investment in Davies Group</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/The_Littleton_Group.png' alt="The Littleton Group" title="The Littleton Group" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/DaviesGroup.jpg' class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to The Littleton Group</span>
+                                <span><i>March 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/the-littleton-groupdavies'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">London, UK <br> March 2021</div>
+                                    <div class="title">Advised The Littleton Group on its sale to Davies Group</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/WorldwideFacilitiesLLC.png' alt="Worldwide Facilities" title="Worldwide Facilities" class="img-fluid m-auto" onerror="imgError(this);">
+                                    <div class="desc m-auto">
+                                        <div class="mb-3">a portfolio company of</div>
+                                            <div class="d-flex flex-row">
+                                                    <img src='/images/Transactions/SellerPEFirmLogo1/Genstar_Capital_39.jpg' class="img-fluid mx-auto mb-auto small" onerror="imgError(this);">
+
+                                            </div>
+                                    </div>
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/AMWINS.png' alt="Amwins Group, Inc." title="Amwins Group, Inc." class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Worldwide Facilities</span>
+                                <span><i>March 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/worldwide-facilitiesamwins-group'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">San Francisco, CA <br> March 2021</div>
+                                    <div class="title">Advised Worldwide Facilities on its sale to Amwins Group, Inc.</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/HM_Employee_Benefits_Risk_Management_49.png' alt="HM Employee Benefits &amp; Risk Management" title="HM Employee Benefits &amp; Risk Management" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/OneDigital.png' alt="OneDigital" title="OneDigital" class="img-fluid m-auto" onerror="imgError(this);">
+                                    <div class="desc m-auto">
+                                        <div class="mb-3">a portfolio company of</div>
+                                            <div class="d-flex flex-row">
+                                                    <img src='/images/Transactions/BuyerPEFirmLogo1/ONEX.png' class="img-fluid mx-auto mb-auto small" onerror="imgError(this);">
+                                                                                            </div>
+                                    </div>
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to OneDigital</span>
+                                <span><i>February 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/onedigitalhm-employee-benefits-and-risk-management'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Altlanta, GA <br> February 2021</div>
+                                    <div class="title">Advised OneDigital on its acquisition of HM Employee Benefits and Risk Management</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/DirectPath_Logo.png' alt="DirectPath" title="DirectPath" class="img-fluid m-auto" onerror="imgError(this);">
+                                    <div class="desc m-auto">
+                                        <div class="mb-3">a portfolio company of</div>
+                                            <div class="d-flex flex-row">
+                                                    <img src='/images/Transactions/SellerPEFirmLogo1/century_equity.png' class="img-fluid mx-auto mb-auto small" onerror="imgError(this);">
+
+                                            </div>
+                                    </div>
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/CNO_Financial_Group.png' alt="CNO Financial Group" title="CNO Financial Group" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to DirectPath</span>
+                                <span><i>February 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/directpathcno-financial-group'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Carmel, IN <br> February 2021</div>
+                                    <div class="title">Advised DirectPath on its sale to CNO Financial Group</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/Fourseventy_Claim_Management.png' alt="Fourseventy Claim Management" title="Fourseventy Claim Management" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/Alacrity_Solutions_11.png' alt="Alacrity Solutions" title="Alacrity Solutions" class="img-fluid m-auto" onerror="imgError(this);">
+                                    <div class="desc m-auto">
+                                        <div class="mb-3">a portfolio company of</div>
+                                            <div class="d-flex flex-row">
+                                                    <img src='/images/Transactions/BuyerPEFirmLogo1/Kohlberg_Co.png' class="img-fluid mx-auto mb-auto small" onerror="imgError(this);">
+                                                                                            </div>
+                                    </div>
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Fourseventy Claim Management </span>
+                                <span><i>February 2021</i></span>
+                            </div>
+
+                            <a href='/transaction-details/fourseventy-claim-managementalacrity-solutions'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Fishers, IN <br> February 2021</div>
+                                    <div class="title">Advised Fourseventy Claim Management on its sale to Alacrity Solutions</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/Hancock_Claims_Consultants_16.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">was recapitalized by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/century_equity.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Hancock Claims Consultants</span>
+                                <span><i>December 2020</i></span>
+                            </div>
+
+                            <a href='/transaction-details/hancock-claims-consultants-holdingscentury-equity-partners'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Atlanta, GA <br> December 2020</div>
+                                    <div class="title">Advised Hancock Claims Consultants on its majority investment from Century Equity Partners</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/Tailored_Adjustment_Services_97.png' alt="Tailored Adjustment Services" title="Tailored Adjustment Services" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/GlobalRiskSolutions_78.png' alt="Global Risk Solutions" title="Global Risk Solutions" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Global Risk Solutions</span>
+                                <span><i>December 2020</i></span>
+                            </div>
+
+                            <a href='/transaction-details/global-risk-solutionstailored-adjustment-services'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Miami, FL <br> December 2020</div>
+                                    <div class="title">Advised Global Risk Solutions on its acquisition of Tailored Adjustment Services</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/IMAFinancialGroup.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">received a minority equity investment from</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/NewMountainCapital.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to New Mountain Capital</span>
+                                <span><i>November 2020</i></span>
+                            </div>
+
+                            <a href='/transaction-details/ima-financial-groupnew-mountain-capital'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Denver, CO <br> November 2020</div>
+                                    <div class="title">Advised New Mountain Capital on its investment in IMA Financial Group</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/Simplicity_79.png' alt="Simplicity Group Holdings" title="Simplicity Group Holdings" class="img-fluid m-auto" onerror="imgError(this);">
+                                    <div class="desc m-auto">
+                                        <div class="mb-3">A portfolio company of</div>
+                                            <div class="d-flex flex-row">
+                                                    <img src='/images/Transactions/SellerPEFirmLogo1/Aquiline-Capital-Partners_99.jpg' alt="Aquiline Capital Partners" title="Aquiline Capital Partners" class="img-fluid mx-auto mb-auto small" onerror="imgError(this);">
+
+                                            </div>
+                                    </div>
+
+                            </div>
+                            <div class="text">was recapitalized by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/LeeeEquity.png' alt="Lee Equity Partners" title="Lee Equity Partners" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Simplicity Group Holdings</span>
+                                <span><i>October 2020</i></span>
+                            </div>
+
+                            <a href='/transaction-details/simplicityaquilinelee-equity-partners'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Summit, NJ <br> October 2020</div>
+                                    <div class="title">Advised Simplicity Group Holdings on its sale to Lee Equity Partners</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                                <div class="value">Transaction Value: $2,650,000,000 </div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/OneDigital.jpg' alt="OneDigital" title="OneDigital" class="img-fluid m-auto" onerror="imgError(this);">
+                                    <div class="desc m-auto">
+                                        <div class="mb-3">A portfolio company of</div>
+                                            <div class="d-flex flex-row">
+                                                    <img src='/images/Transactions/SellerPEFirmLogo1/NewMountainCapital_42.jpg' alt="New Mountain Capital" title="New Mountain Capital" class="img-fluid mx-auto mb-auto small" onerror="imgError(this);">
+
+                                            </div>
+                                    </div>
+
+                            </div>
+                            <div class="text">was recapitalized by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/ONEX_Logo_23.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to New Mountain Capital</span>
+                                <span><i>October 2020</i></span>
+                            </div>
+
+                            <a href='/transaction-details/onedigital-new-mountain-capitalonex'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Atlanta, GA <br> October 2020</div>
+                                    <div class="title">Advised New Mountain Capital on its $2.65B sale of OneDigital to Onex</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="tile d-flex flex-column">
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/SellerCompany/Nationwide.png' alt="Nationwide Appraisals" title="Nationwide Appraisals" class="img-fluid m-auto" onerror="imgError(this);">
+
+                            </div>
+                            <div class="text">was acquired by</div>
+                            <div class="holder d-flex flex-column">
+                                <img src='/images/Transactions/BuyerCompany/Sedgwick_20.jpg' class="img-fluid m-auto" onerror="imgError(this);">
+                                    <div class="desc m-auto">
+                                        <div class="mb-3">a portfolio company of</div>
+                                            <div class="d-flex flex-row">
+                                                    <img src='/images/Transactions/BuyerPEFirmLogo1/TheCarlyleGroupCarlyle.png' class="img-fluid mx-auto mb-auto small" onerror="imgError(this);">
+                                                                                            </div>
+                                    </div>
+
+                            </div>
+                            <div class="footprint">
+                                <span class="d-block">Financial advisor to Nationwide Appraisals</span>
+                                <span><i>September 2020</i></span>
+                            </div>
+
+                            <a href='/transaction-details/nationwide-appraisalssedgwick'>
+                                <div class="info d-flex flex-column trans">
+                                    <div class="name">Memphis, TN <br> September 2020</div>
+                                    <div class="title">Advised Nationwide Appraisals on its sale to Sedgwick</div>
+                                    <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tile-footer">
+                            <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                        </div>
+                    </div> -->
+				  </div>
+			   </div>
+		    </div>
+		 </div>
+ 
+    <div class="container"> 
+	 <div class="row">
+	   <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="port-tile"> 
+         <div class="content">
+          <div class="holder top">
+              <i>PEI Electronics</i>
+              </div>
+               <div class="holder middle"> <p>was acquired by</p></div>
+                 <div class="holder bottom"> <img src="images/veritas.png" alt="veritas" class="img-contain"> </div>
+				  <div class="overlay-box">
+				    <div class="ovrly-text">
+					 <div class="date-roll">Date<span>1998</span></div>
+					 <div class="date-roll">Role<span>M&A Advisory</span></div>
+					</div>
+				   </div>
+				  </div>
+			  <div class="content-footer">
+			  <h5 class="f18">Defense - Equipment</h5>
+			</div>  
+         </div>
+        </div>
+		
+	    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="port-tile"> 
+         <div class="content">
+          <div class="holder top">
+             <img src="images/DRT.png" alt="">
+              </div>
+               <div class="holder middle"> <p>was acquired by</p></div>
+                 <div class="holder bottom"> <img src="images/boeing.png" alt="boeing" class="img-contain"> </div>
+				  <div class="overlay-box">
+				    <div class="ovrly-text">
+					 <div class="date-roll">Date<span>1998</span></div>
+					 <div class="date-roll">Role<span>M&A Advisory</span></div>
+					</div>
+				   </div>
+				  </div>
+			  <div class="content-footer">
+			  <h5 class="f18">Intelligence – Signals Intel</h5>
+			</div>  
+         </div>
+        </div>
+		
+	  <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="port-tile"> 
+         <div class="content">
+          <div class="holder top">
+              <img src="images/white-oak-logo.png" alt="">
+              </div>
+               <div class="holder middle"> <p>Invested In</p></div>
+                 <div class="holder bottom"> <img src="images/arlington.png" alt="arlington" class="img-contain"> </div>
+				  <div class="overlay-box">
+				    <div class="ovrly-text">
+					 <div class="date-roll">Date<span>1998</span></div>
+					 <div class="date-roll">Role<span>M&A Advisory</span></div>
+					</div>
+				   </div>
+				  </div>
+			  <div class="content-footer">
+			  <h5 class="f18">Intelligence - Services</h5>
+			</div>  
+         </div>
+        </div>
+		
+	 <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="port-tile"> 
+         <div class="content">
+          <div class="holder top">
+              <img src="images/lepton.png" alt="">
+              </div>
+               <div class="holder middle"> <p>Invested In</p></div>
+                 <div class="holder bottom"> <img src="images/kymeta.png" alt="veritas" class="img-contain"> </div>
+				  <div class="overlay-box">
+				    <div class="ovrly-text">
+					 <div class="date-roll">Date<span>1998</span></div>
+					 <div class="date-roll">Role<span>M&A Advisory</span></div>
+					</div>
+				   </div>
+				  </div>
+			  <div class="content-footer">
+			  <h5 class="f18">Aerospace – Satellite Communications</h5>
+			</div>  
+         </div>
+        </div> 
+       </div> 
+	   
+	    <div class="row">
+	   <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="port-tile"> 
+         <div class="content">
+          <div class="holder top">
+              <i>PEI Electronics</i>
+              </div>
+               <div class="holder middle"> <p>was acquired by</p></div>
+                 <div class="holder bottom"> <img src="images/veritas.png" alt="veritas" class="img-contain"> </div>
+				  <div class="overlay-box">
+				    <div class="ovrly-text">
+					 <div class="date-roll">Date<span>1998</span></div>
+					 <div class="date-roll">Role<span>M&A Advisory</span></div>
+					</div>
+				   </div>
+				  </div>
+			  <div class="content-footer">
+			  <h5 class="f18">Defense - Equipment</h5>
+			</div>  
+         </div>
+        </div>
+		
+	    <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="port-tile"> 
+         <div class="content">
+          <div class="holder top">
+             <img src="images/DRT.png" alt="">
+              </div>
+               <div class="holder middle"> <p>was acquired by</p></div>
+                 <div class="holder bottom"> <img src="images/boeing.png" alt="boeing" class="img-contain"> </div>
+				  <div class="overlay-box">
+				    <div class="ovrly-text">
+					 <div class="date-roll">Date<span>1998</span></div>
+					 <div class="date-roll">Role<span>M&A Advisory</span></div>
+					</div>
+				   </div>
+				  </div>
+			  <div class="content-footer">
+			  <h5 class="f18">Intelligence – Signals Intel</h5>
+			</div>  
+         </div>
+        </div>
+		
+	  <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="port-tile"> 
+         <div class="content">
+          <div class="holder top">
+              <img src="images/white-oak-logo.png" alt="">
+              </div>
+               <div class="holder middle"> <p>Invested In</p></div>
+                 <div class="holder bottom"> <img src="images/arlington.png" alt="arlington" class="img-contain"> </div>
+				  <div class="overlay-box">
+				    <div class="ovrly-text">
+					 <div class="date-roll">Date<span>1998</span></div>
+					 <div class="date-roll">Role<span>M&A Advisory</span></div>
+					</div>
+				   </div>
+				  </div>
+			  <div class="content-footer">
+			  <h5 class="f18">Intelligence - Services</h5>
+			</div>  
+         </div>
+        </div>
+		
+	 <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="port-tile"> 
+         <div class="content">
+          <div class="holder top">
+              <img src="images/lepton.png" alt="">
+              </div>
+               <div class="holder middle"> <p>Invested In</p></div>
+                 <div class="holder bottom"> <img src="images/kymeta.png" alt="veritas" class="img-contain"> </div>
+				  <div class="overlay-box">
+				    <div class="ovrly-text">
+					 <div class="date-roll">Date<span>1998</span></div>
+					 <div class="date-roll">Role<span>M&A Advisory</span></div>
+					</div>
+				   </div>
+				  </div>
+			  <div class="content-footer">
+			  <h5 class="f18">Aerospace – Satellite Communications</h5>
+			</div>  
+         </div>
+        </div> 
+    
+	   
+	  </div>  
+   </div>
+  </div>
+<!-- Well-Known Industry end -->  <!-- ./teams end -->
+ 
+  
+
+   
+  
+  <!-- ./footer start -->
+  <footer>
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-4 col-md-4 col-sm-12">
+              <ul>
+			   <img class="logo-ftr" src="images/southwind-logo-white.png" alt=""> 
+			   <p>©2021 Southwind Capital</p>
+			   <li class="spc-tp"><a href="term.html">Terms of Use</a> | <a href="privacy-policy.html">Privacy Policy</a></li>
+			  </ul>
+              </div>  <!-- col-end -->
+		    
+			 <div class="col-lg-4 col-md-4 col-sm-12">
+			 <div class="heading-title">Contact</div>
+              <ul> 
+			  <p>Southwind Capital <br>3200 Ironbound Road | Suite C <br>Williamsburg, Virginia 23188 <br>United States </p>
+			  <p class="spc-tp">(703) 231-6924</p>
+			  </ul>
+             </div> <!-- col-end --> 
+
+			 <div class="col-lg-4 col-md-4 col-sm-12">
+			  <div class="heading-title">Quick Links</div>
+			   <ul>
+			    <li><a href="">About</a></li>
+				<li><a href="">Leadership</a></li>
+				<li><a href="">Experiences</a></li>
+				<li><a href="">News</a></li>
+				<li><a href="">Contact</a></li>
+			  </ul>
+			 </div> <!-- col-end -->
+			 
+             <div class="col-lg-12"><hr class="bordr"></div>
+			 
+			 <div class="col-lg-12">
+			 <p class="disc-sec"><i>Securities transactions are conducted through Ashton Stewart & Co. Inc. Certain individuals of Southwind are Registered Representatives of Ashton Stewart & Co., Inc., New York, NY. Ashton Stewart is not affiliated with Southwind.</i></p>
+			 </div>
+        </div> 
+       </div>
+     </div>
+  </footer>
+  <!-- ./footer start -->
+
+
+
+<!-- jQuery files -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/custom_script.js"></script>
+
+<!-- Bootstrap core JavaScript Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <script src="js/filt.js"></script>
+ <style type="text/css">
+     .filactive{display: block;}
+ </style>
+ 
+    
+
+<script type="text/javascript">
+
+var data = [
+    {
+        filter: 'Industry',
+        html: `
+            <div class="col-sm-6 col-lg-4 col-xl-3 Industry1Card">
+                <div class="tile d-flex flex-column">
+                    <div class="holder d-flex flex-column">
+                        <img src='/images/Transactions/SellerCompany/bothlogos.png' alt="CCG IQ &amp; Donan" title="CCG IQ &amp; Donan" class="img-fluid m-auto" onerror="imgError(this);">
+
+                    </div>
+                    <div class="text">merged and subsequently partnered with</div>
+                    <div class="holder d-flex flex-column">
+                        <img src='/images/Transactions/BuyerCompany/nmc_54.jpg' alt="New Mountain Capital" title="New Mountain Capital" class="img-fluid m-auto" onerror="imgError(this);">
+
+                    </div>
+                    <div class="footprint">
+                        <span class="d-block">Financial advisor to New Mountain Capital</span>
+                        <span><i>December 2021</i></span>
+                    </div>
+
+                    <a href='/transaction-details/new-mountain-capitaldonan-and-ccg-iq'>
+                        <div class="info d-flex flex-column trans">
+                            <div class="name">Louisville, KY and Charlotte, NC <br> December 2021</div>
+                            <div class="title">Served as  financial advisor to New Mountain Capital in these transactions</div>
+                            <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="tile-footer">
+                    <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                </div>
+            </div>
+        `
+    },
+    {
+        filter: 'Healthcare',
+        html: `
+            <div class="col-sm-6 col-lg-4 col-xl-3 Industry1Card">
+                <div class="tile d-flex flex-column">
+                    <div class="holder d-flex flex-column">
+                        <img src='/images/Transactions/SellerCompany/Merlinos002.gif' alt="Merlinos &amp; Associates, Inc." title="Merlinos &amp; Associates, Inc." class="img-fluid m-auto" onerror="imgError(this);">
+
+                    </div>
+                    <div class="text">was acquired by </div>
+                    <div class="holder d-flex flex-column">
+                        <img src='/images/Transactions/BuyerCompany/DaviesGroup002.jpg' alt="Davies Group" title="Davies Group" class="img-fluid m-auto" onerror="imgError(this);">
+
+                    </div>
+                    <div class="footprint">
+                        <span class="d-block">Financial advisor to Merlinos & Associates, Inc. </span>
+                        <span><i>December 2021</i></span>
+                    </div>
+
+                    <a href='/transaction-details/merlinosdavies'>
+                        <div class="info d-flex flex-column trans">
+                            <div class="name">Peachtree Corners, GA <br> December 2021</div>
+                            <div class="title">Advised Merlinos & Associates, Inc. on its sale to Davies Group</div>
+                            <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="tile-footer">
+                    <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                </div>
+            </div>
+        `
+    },
+    {
+        filter: 'Investment',
+        html: `
+            <div class="col-sm-6 col-lg-4 col-xl-3 Industry1Card">
+                <div class="tile d-flex flex-column">
+                    <div class="holder d-flex flex-column">
+                        <img src='/images/Transactions/SellerCompany/CrouseLogopng003.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                    </div>
+                    <div class="text">was acquired by </div>
+                    <div class="holder d-flex flex-column">
+                        <img src='/images/Transactions/BuyerCompany/RSGlogo003.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                    </div>
+                    <div class="footprint">
+                        <span class="d-block">Financial advisor to Crouse and Associates</span>
+                        <span><i>December 2021</i></span>
+                    </div>
+
+                    <a href='/transaction-details/crouse-and-associates-was-acquired-by-ryan-specialty-group'>
+                        <div class="info d-flex flex-column trans">
+                            <div class="name">San Francisco, CA <br> December 2021</div>
+                            <div class="title">Advised Crouse and Associates on its sale to Ryan Specialty Group</div>
+                            <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="tile-footer">
+                    <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                </div>
+            </div>
+        `
+    },
+    {
+        filter: 'Technology',
+        html: `
+            <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="tile d-flex flex-column">
+                    <div class="holder d-flex flex-column">
+                        <img src='/images/Transactions/SellerCompany/VimlyBenefitSolutions.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                    </div>
+                    <div class="text">has raised growth equity capital</div>
+                    <div class="holder d-flex flex-column">
+                        <img src='/images/Transactions/BuyerCompany/VimlyDealAnnouncement.png' class="img-fluid m-auto" onerror="imgError(this);">
+
+                    </div>
+                    <div class="footprint">
+                        <span class="d-block">Financial advisor to Vimly Benefit Solutions</span>
+                        <span><i>October 2021</i></span>
+                    </div>
+
+                    <a href='/transaction-details/vimly-benefit-solutions-'>
+                        <div class="info d-flex flex-column trans">
+                            <div class="name">Mukilteo, WA <br> October 2021</div>
+                            <div class="title">Advised Vimly Benefit Solutions on its growth capital raise</div>
+                            <div class="details mt-auto">View Details <i class="fas fa-caret-right"></i></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="tile-footer">
+                    <img src='/images/WHA_footer_logo.svg' alt="WallerHelms Advisors" class="img-fluid">
+                </div>
+            </div>
+        `
+    }
+]
+
+$(document).ready(function() {
+
+    setData([])
+
+    $('.filterOptions').click(function() {
+
+        let optionsArr = $('input[name=options]:checked').map(function() {
+            return $(this).val()
+        }).get()
+
+        setData(optionsArr)
+    })
+})
+
+function setData(categoriesArr)
+{
+    $('#target').html('')
+
+    data.forEach(item => {
+        
+        if(categoriesArr.includes(item.filter)) $('#target').append(item.html)
+        
+        // if(categoriesArr.length) {
+            // if(categoriesArr.includes(item.filter)) $('#target').append(item.html)
+        // } else {
+            // $('#target').append(item.html)
+        // }
+    })
+}
+
+</script>
+	
+
+</body>
+</html>
+
